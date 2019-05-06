@@ -1,0 +1,35 @@
+body {
+  font: 16px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+}
+
+.body {
+  background: url(../assets/644709_10151541972276979_1830097562_n.jpg) no-repeat center; 
+  background-size: cover;
+}
+
+.content-wrapper {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  opacity: 1;
+}
+
+.content-wrapper .lyrics p {
+  margin 15px 0;
+}
+
+@media only screen and (min-width:48em) {
+
+}
+
+.music audio {
+  width: 100%;
+}
